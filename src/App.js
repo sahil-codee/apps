@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import Para from './Para';
 
 function App() {
   return (
@@ -7,6 +8,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <h1>Learn React.js</h1>
+        <Para />
         <a
           className="App-link"
           href="https://reactjs.org"
